@@ -21,25 +21,60 @@ This project documents **real WordPress issues** I fixed during practical traini
 
 ## 🧰 Tools Used
 
-- 🖥️ **LocalWP** – Local environment for WordPress testing
-- 🧩 **Browser Developer Tools** – Inspecting layout and responsiveness
-- ⚙️ **WordPress Dashboard** – Plugin/theme control, settings
-- 🔌 **Plugin Deactivation Testing** – Conflict isolation
-- 🎨 **Elementor / Cache Clearing** – Front-end fixes
+- 🖥️ **LocalWP** – Local environment for WordPress testing  
+- 🧩 **Browser Developer Tools** – Inspecting layout and responsiveness  
+- ⚙️ **WordPress Dashboard** – Plugin/theme control, settings  
+- 🔌 **Plugin Deactivation Testing** – Conflict isolation  
+- 🎨 **Elementor / Cache Clearing** – Front-end fixes  
 
 ---
 
-## 🖼️ Example Fix: HTTP Error 500
+## 🖼️ Example Fixes (Before / After)
 
-### 🔍 Before
-![HTTP Error 500](screenshots/http-error-500.png)
+---
 
-### ✅ After
-Issue fixed after identifying a missing semicolon in `functions.php`. Steps:
+### ⚠️ 1. HTTP Error 500
 
-1. Accessed files via LocalWP.  
-2. Located `functions.php` and found a syntax error.  
+**Before**  
+![HTTP Error 500 - Before](screenshots/http-error-500.png)
+
+**After**  
+Issue fixed after identifying a missing semicolon in `functions.php`.
+
+**Steps:**
+1. Opened the theme files using LocalWP.
+2. Found a syntax error in `functions.php`.
 3. Corrected the code and refreshed the site.
+
+---
+
+### ⚪ 2. White Screen of Death
+
+**Before**  
+![White Screen](screenshots/white-screen-issue.png)
+
+**After**  
+Issue resolved by disabling a faulty plugin causing PHP errors.
+
+**Steps:**
+1. Accessed the plugin folder via LocalWP.
+2. Renamed the suspected plugin folder.
+3. Site loaded successfully again.
+
+---
+
+### 🟠 3. Button Not Working
+
+**Before**  
+![Button Not Working](screenshots/button-not-working.png)
+
+**After**  
+Fixed by checking Elementor settings and removing a conflicting plugin.
+
+**Steps:**
+1. Inspected the button using the browser tools.
+2. Identified overlapping CSS from another plugin.
+3. Disabled the plugin and adjusted button layout in Elementor.
 
 ---
 
@@ -51,7 +86,7 @@ Issue fixed after identifying a missing semicolon in `functions.php`. Steps:
 
 ## 📂 Screenshots
 
-All images are inside the [`screenshots/`](./screenshots) folder and renamed clearly to reflect each issue.
+All images are located inside the [`screenshots/`](./screenshots) folder and renamed clearly to reflect each issue.
 
 ---
 
@@ -66,4 +101,10 @@ All images are inside the [`screenshots/`](./screenshots) folder and renamed cle
 ## 📫 Contact
 
 Need help with your WordPress site?  
-Feel free to reach out via [GitHub](https://github.com/luaiadhmani)
+Feel free to reach out via [GitHub](https://github.com/luaiadhmani).
+
+---
+
+## 🔖 GitHub Tags (Suggested)
+
+> `wordpress` &nbsp;&nbsp; `troubleshooting` &nbsp;&nbsp; `localwp` &nbsp;&nbsp; `elementor` &nbsp;&nbsp; `debugging` &nbsp;&nbsp; `freelance`

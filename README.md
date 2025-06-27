@@ -66,4 +66,4 @@ All images are inside the [`screenshots/`](./screenshots) folder and renamed cle
 ## 📫 Contact
 
 Need help with your WordPress site?  
-Feel free to reach out via [GitHub](https://github.com/luaiadhmani) or visit my [freelance portfolio](https://your-portfolio-link).
+Feel free to reach out via [GitHub](https://github.com/luaiadhmani)

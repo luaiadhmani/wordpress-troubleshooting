@@ -46,4 +46,49 @@ Solved by fixing a syntax error in `functions.php`.
 
 ### 2. White Screen of Death  
 ![White Screen](./screenshots/white-screen-issue.png)  
-Resolved by disabling
+Resolved by disabling a plugin causing PHP crashes.
+
+---
+
+### 3. Button Not Working  
+![Button Issue](./screenshots/button-not-working.png)  
+Fixed by removing a conflicting plugin and updating Elementor settings.
+
+---
+
+### 4. Site Not Working After Update  
+![Site Down](./screenshots/site-not-working-fixed.png)  
+Solution: plugin rollback and .htaccess file reset.
+
+---
+
+### 5. Mobile Layout Broken  
+![Mobile Broken](./screenshots/mobile-layout-broken.png)  
+Solved with Elementor responsive controls and custom padding.
+
+---
+
+## 📂 Screenshot Folder
+
+You can find all images in the [`screenshots/`](./screenshots) folder.
+
+---
+
+## 👥 Who This Is For
+
+- Small business owners or bloggers with WordPress issues  
+- Freelancers offering debugging services  
+- Junior developers learning WordPress troubleshooting  
+
+---
+
+## 📩 Contact
+
+Want me to fix your WordPress issue?  
+Message me via [GitHub](https://github.com/luaiadhmani) or connect for freelance/remote opportunities.
+
+---
+
+## 🔖 Tags
+
+`wordpress` &nbsp; `debugging` &nbsp; `elementor` &nbsp; `troubleshooting` &nbsp; `freelance` &nbsp; `remote-work`

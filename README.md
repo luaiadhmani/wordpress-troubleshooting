@@ -14,7 +14,7 @@ Each case includes a **before/after screenshot**, a short explanation, and a cle
 | 2 | White Screen of Death           | ✅ Fixed |
 | 3 | 404-page-not-found-fixed        | ✅ Fixed |
 | 4 | Site Not Working After Update   | ✅ Fixed |
-| 5 | Mobile Layout issue             | ✅ Fixed |
+| 5 | Mobile Layout Broken            | ✅ Fixed |
 
 ---
 
@@ -63,7 +63,7 @@ Solution: plugin rollback and .htaccess file reset.
 ---
 
 ### 5. Mobile Layout Broken  
-![Mobile Layout Issue](./screenshots/mobile-layout-issue.png)
+![Mobile Layout Broken](./screenshots/mobile-layout-broken.png)
 Solved with Elementor responsive controls and custom padding.
 
 ---

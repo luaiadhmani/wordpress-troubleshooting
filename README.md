@@ -63,7 +63,7 @@ Solution: plugin rollback and .htaccess file reset.
 ---
 
 ### 5. Mobile Layout Broken  
-![Mobile Broken](./screenshots/mobile-layout-broken.png)  
+![Mobile Broken](./screenshots/mobile-layout-broken.png)
 Solved with Elementor responsive controls and custom padding.
 
 ---

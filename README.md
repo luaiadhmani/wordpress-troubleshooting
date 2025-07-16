@@ -52,7 +52,7 @@ Resolved by disabling a plugin causing PHP crashes.
 
 ### 3. 404-page-not-found-fixed  
 ![Button Issue](./screenshots/404-page-not-found-fixed.png)  
-Fixed by removing a conflicting plugin and updating Elementor settings.
+Resolved by correcting the page slug, updating Elementor’s menu links, and refreshing permalinks.
 
 ---
 

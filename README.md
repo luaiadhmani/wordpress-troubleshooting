@@ -12,7 +12,7 @@ Each case includes a **before/after screenshot**, a short explanation, and a cle
 |--:|----------------------------------|----------|
 | 1 | HTTP Error 500                  | ✅ Fixed |
 | 2 | White Screen of Death           | ✅ Fixed |
-| 3 | Button Not Working              | ✅ Fixed |
+| 3 | 404-page-not-found-fixed        | ✅ Fixed |
 | 4 | Site Not Working After Update   | ✅ Fixed |
 | 5 | Mobile Layout Broken            | ✅ Fixed |
 
@@ -50,8 +50,8 @@ Resolved by disabling a plugin causing PHP crashes.
 
 ---
 
-### 3. Button Not Working  
-![Button Issue](./screenshots/button-not-working.png)  
+### 3. 404-page-not-found-fixed  
+![Button Issue](./screenshots/404-page-not-found-fixed.png)  
 Fixed by removing a conflicting plugin and updating Elementor settings.
 
 ---
